@@ -1,0 +1,39 @@
+/home/vagrant/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20151102-2665-1bg8t01.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling signature.cc
+compiling exception.cc
+compiling invocation.cc
+compiling trycatch.cc
+compiling v8.cc
+compiling string.cc
+compiling locker.cc
+compiling template.cc
+compiling external.cc
+compiling value.cc
+compiling init.cc
+compiling script.cc
+compiling heap.cc
+compiling handles.cc
+compiling function.cc
+compiling primitive.cc
+compiling date.cc
+compiling object.cc
+compiling constraints.cc
+compiling stack.cc
+compiling message.cc
+compiling gc.cc
+compiling backref.cc
+compiling rr.cc
+compiling constants.cc
+compiling context.cc
+compiling accessor.cc
+compiling array.cc
+linking shared-object v8/init.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20151102-2665-wpph4s/v8
